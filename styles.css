@@ -8,7 +8,7 @@ body {
     margin: 0;
     background: url('images/fundo.JPG') repeat;
     font-size: 35px;
-    color: rgb(255, 0, 174);
+    color: #f7a3c8;
 }
 .hh{
     -webkit-text-stroke: 2px #71004f;
