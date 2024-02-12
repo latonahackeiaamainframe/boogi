@@ -8,8 +8,8 @@ function showMessage(response) {
     // Set button position to absolute
     noButton.style.position = "absolute";
 
-    // Change image source to "gun.gif"
-    document.getElementsByClassName("image")[0].src = "images/gun.gif";
+    // Change image source to "siiiike.png"
+    document.getElementsByClassName("image")[0].src = "images/siiiike.png";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
