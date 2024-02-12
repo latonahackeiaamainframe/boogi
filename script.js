@@ -32,12 +32,12 @@ function showMessage(response) {
     document.getElementById("name").remove();
     document.getElementById("no-button").remove();
 
-    // Update text content, show message, and change image source to "dance.gif"
+    // Update text content, show message, and change image source to "amassa.GIF"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "hehehe";
+    yesMessage.textContent = "hehehe yeepiiiii!!!! <3";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/dance.gif";
+    document.getElementsByClassName("image")[0].src = "images/amassa.GIF";
 
     // Remove yes button
     document.getElementById("yesButton").remove();
