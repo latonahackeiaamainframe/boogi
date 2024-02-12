@@ -1,5 +1,5 @@
 function showMessage(response) {
-  if (response === "No") {
+  if (response === "não") {
     const noButton = document.getElementById("no-button");
     const container = document.querySelector(".container");
     const maxWidth = window.innerWidth - noButton.offsetWidth;
@@ -21,13 +21,13 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "The no button is just for visuals";
+      "SIIIIIKE";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
   }
 
-  if (response === "Yes") {
+  if (response === "sim") {
     // Remove name message and no button
     document.getElementById("name").remove();
     document.getElementById("no-button").remove();
