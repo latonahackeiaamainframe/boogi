@@ -53,6 +53,7 @@ body
     cursor: pointer;
     position: relative;
     font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+    border-color: #f55b9d
 
 }
 
